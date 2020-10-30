@@ -9,8 +9,11 @@ import UIKit
 
 class FourthTableViewCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var imgView: UIImageView!
+    
     override class func awakeFromNib() {
-        
+    
+     
     }
     
 }

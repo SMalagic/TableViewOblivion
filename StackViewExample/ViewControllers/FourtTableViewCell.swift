@@ -7,7 +7,7 @@
 
 import UIKit
 
-class FourtTableViewCell: UITableViewCell , UICollectionViewDelegate, UICollectionViewDataSource{
+class FourtTableViewCell: UITableViewCell , UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout{
     
 
     
@@ -38,8 +38,25 @@ class FourtTableViewCell: UITableViewCell , UICollectionViewDelegate, UICollecti
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CellCol", for: indexPath) as! FourthTableViewCollectionViewCell
         
+        cell.layer.cornerRadius = 15
+        cell.layer.masksToBounds = true
         
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView,
+                        layout collectionViewLayout: UICollectionViewLayout,
+                        sizeForItemAt indexPath: IndexPath) -> CGSize {
+        
+        var kWhateverHeightYouWant = CGFloat()
+        var kWhateverWidthYouWant = CGFloat()
+        
+        kWhateverHeightYouWant = collectionView.frame.size.height * 0.9
+        kWhateverWidthYouWant  = collectionView.frame.size.width * 0.35
+        
+        return CGSize(width: CGFloat(kWhateverWidthYouWant) , height: CGFloat(kWhateverHeightYouWant) )
+        
+        
     }
     
 
