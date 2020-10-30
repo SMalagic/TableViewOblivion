@@ -58,7 +58,7 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="bayrak" width="1300" height="1430"/>
+        <image name="bayrak" width="1300" height="1299"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
