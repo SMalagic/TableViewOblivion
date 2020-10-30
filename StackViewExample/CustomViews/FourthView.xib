@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="774-BK-690" customClass="FourtTableViewCell" customModule="StackViewExample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="774-BK-690" id="pur-Hw-tKW">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RhB-Ol-NnV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4. TableView Cell" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7hk-8P-umf">
+                                <rect key="frame" x="8" y="8" width="398" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="QWv-Ll-yHX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="PoA-JX-bU5">
+                                <rect key="frame" x="8" y="66" width="398" height="226"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="226" id="BuB-5N-u2y"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="dwv-1k-Nsn">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="7hk-8P-umf" secondAttribute="trailing" constant="8" id="3hq-22-CZD"/>
+                            <constraint firstItem="PoA-JX-bU5" firstAttribute="leading" secondItem="RhB-Ol-NnV" secondAttribute="leading" constant="8" id="Chc-4N-VJU"/>
+                            <constraint firstItem="7hk-8P-umf" firstAttribute="top" secondItem="RhB-Ol-NnV" secondAttribute="top" constant="8" id="MTL-2r-hs6"/>
+                            <constraint firstItem="PoA-JX-bU5" firstAttribute="top" secondItem="7hk-8P-umf" secondAttribute="bottom" constant="8" id="Q1f-Cj-T9Y"/>
+                            <constraint firstAttribute="trailing" secondItem="PoA-JX-bU5" secondAttribute="trailing" constant="8" id="ZHD-rj-WXJ"/>
+                            <constraint firstAttribute="height" constant="300" id="gih-oD-0eg"/>
+                            <constraint firstItem="7hk-8P-umf" firstAttribute="leading" secondItem="RhB-Ol-NnV" secondAttribute="leading" constant="8" id="nU5-fb-hKE"/>
+                            <constraint firstAttribute="bottom" secondItem="PoA-JX-bU5" secondAttribute="bottom" constant="8" id="srd-C8-B5r"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="RhB-Ol-NnV" secondAttribute="trailing" id="bil-XA-GFX"/>
+                    <constraint firstAttribute="bottom" secondItem="RhB-Ol-NnV" secondAttribute="bottom" id="ecs-hM-jus"/>
+                    <constraint firstItem="RhB-Ol-NnV" firstAttribute="top" secondItem="pur-Hw-tKW" secondAttribute="top" id="k0q-Bs-AHn"/>
+                    <constraint firstItem="RhB-Ol-NnV" firstAttribute="leading" secondItem="pur-Hw-tKW" secondAttribute="leading" id="vdA-aB-sgK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="collectionView" destination="PoA-JX-bU5" id="TCf-bI-RQ7"/>
+            </connections>
+            <point key="canvasLocation" x="-346.37681159420293" y="-36.160714285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
