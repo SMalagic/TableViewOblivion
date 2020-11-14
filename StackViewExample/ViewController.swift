@@ -103,7 +103,7 @@ class ViewController: UITableViewController {
             //load data here
             
         
-        UIView.transition(with: self.view ,duration: 0.3,options: .transitionCrossDissolve,animations: {
+        UIView.transition(with: self.view ,duration: 0.2,options: .transitionCrossDissolve,animations: {
             self.tableView.reloadData()
         })
         }

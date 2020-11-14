@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD270D412559462A00E083B4 /* ViewControllerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD270D402559462A00E083B4 /* ViewControllerOne.swift */; };
+		FD270D452559463200E083B4 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD270D442559463200E083B4 /* ViewControllerTwo.swift */; };
+		FD270D482559464000E083B4 /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD270D472559464000E083B4 /* ViewControllerThree.swift */; };
 		FD438E45254BFD64003E7D9A /* ThirdTableViewCellCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD438E44254BFD64003E7D9A /* ThirdTableViewCellCustomCell.xib */; };
 		FD438E48254BFE1A003E7D9A /* ThirdTableViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD438E47254BFE1A003E7D9A /* ThirdTableViewTableViewCell.swift */; };
 		FD438E4B254C0ABE003E7D9A /* FourthView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD438E4A254C0ABE003E7D9A /* FourthView.xib */; };
 		FD438E4E254C0B60003E7D9A /* FourtTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD438E4D254C0B60003E7D9A /* FourtTableViewCell.swift */; };
 		FD438E55254C3019003E7D9A /* FourthTableViewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD438E54254C3019003E7D9A /* FourthTableViewCollectionViewCell.xib */; };
 		FD438E58254C309B003E7D9A /* FourthTableViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD438E57254C309B003E7D9A /* FourthTableViewCollectionViewCell.swift */; };
+		FD6395F8255E647A00150285 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6395F7255E647A00150285 /* File.swift */; };
+		FD6395FC255E65E800150285 /* CustomTFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6395FB255E65E800150285 /* CustomTFViewController.swift */; };
 		FD95B09D2549F56500A2433E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD95B09C2549F56500A2433E /* AppDelegate.swift */; };
 		FD95B09F2549F56500A2433E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD95B09E2549F56500A2433E /* SceneDelegate.swift */; };
 		FD95B0A42549F56500A2433E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD95B0A22549F56500A2433E /* Main.storyboard */; };
@@ -28,12 +33,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD270D402559462A00E083B4 /* ViewControllerOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerOne.swift; sourceTree = "<group>"; };
+		FD270D442559463200E083B4 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
+		FD270D472559464000E083B4 /* ViewControllerThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
 		FD438E44254BFD64003E7D9A /* ThirdTableViewCellCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdTableViewCellCustomCell.xib; sourceTree = "<group>"; };
 		FD438E47254BFE1A003E7D9A /* ThirdTableViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTableViewTableViewCell.swift; sourceTree = "<group>"; };
 		FD438E4A254C0ABE003E7D9A /* FourthView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FourthView.xib; sourceTree = "<group>"; };
 		FD438E4D254C0B60003E7D9A /* FourtTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourtTableViewCell.swift; sourceTree = "<group>"; };
 		FD438E54254C3019003E7D9A /* FourthTableViewCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FourthTableViewCollectionViewCell.xib; sourceTree = "<group>"; };
 		FD438E57254C309B003E7D9A /* FourthTableViewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthTableViewCollectionViewCell.swift; sourceTree = "<group>"; };
+		FD6395F7255E647A00150285 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		FD6395FB255E65E800150285 /* CustomTFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTFViewController.swift; sourceTree = "<group>"; };
 		FD95B0992549F56500A2433E /* StackViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD95B09C2549F56500A2433E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD95B09E2549F56500A2433E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +71,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD270D3F2559461900E083B4 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				FD270D402559462A00E083B4 /* ViewControllerOne.swift */,
+				FD270D442559463200E083B4 /* ViewControllerTwo.swift */,
+				FD270D472559464000E083B4 /* ViewControllerThree.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		FD438E51254C2CF2003E7D9A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,10 +127,13 @@
 				FDC4C3B4254B2BBF00771F25 /* ViewController.swift */,
 				FD438E51254C2CF2003E7D9A /* ViewControllers */,
 				FD438E52254C2CFF003E7D9A /* CustomViews */,
+				FD270D3F2559461900E083B4 /* New Group */,
 				FD438E44254BFD64003E7D9A /* ThirdTableViewCellCustomCell.xib */,
 				FD438E47254BFE1A003E7D9A /* ThirdTableViewTableViewCell.swift */,
 				FD438E54254C3019003E7D9A /* FourthTableViewCollectionViewCell.xib */,
 				FD438E57254C309B003E7D9A /* FourthTableViewCollectionViewCell.swift */,
+				FD6395F7255E647A00150285 /* File.swift */,
+				FD6395FB255E65E800150285 /* CustomTFViewController.swift */,
 				FD95B0A22549F56500A2433E /* Main.storyboard */,
 				FD95B0A52549F56600A2433E /* Assets.xcassets */,
 				FD95B0A72549F56600A2433E /* LaunchScreen.storyboard */,
@@ -196,14 +219,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD438E48254BFE1A003E7D9A /* ThirdTableViewTableViewCell.swift in Sources */,
+				FD270D412559462A00E083B4 /* ViewControllerOne.swift in Sources */,
 				FDC4C3B5254B2BBF00771F25 /* ViewController.swift in Sources */,
 				FD438E58254C309B003E7D9A /* FourthTableViewCollectionViewCell.swift in Sources */,
 				FDC4C3C2254B2CF100771F25 /* SecondTableViewCell.swift in Sources */,
 				FD95B09D2549F56500A2433E /* AppDelegate.swift in Sources */,
 				FDC4C3BF254B2CE900771F25 /* FirstTableViewCell.swift in Sources */,
+				FD6395FC255E65E800150285 /* CustomTFViewController.swift in Sources */,
+				FD270D482559464000E083B4 /* ViewControllerThree.swift in Sources */,
 				FD95B09F2549F56500A2433E /* SceneDelegate.swift in Sources */,
 				FD438E4E254C0B60003E7D9A /* FourtTableViewCell.swift in Sources */,
+				FD6395F8255E647A00150285 /* File.swift in Sources */,
 				FDC4C3C6254B342A00771F25 /* ThirdTableViewCell.swift in Sources */,
+				FD270D452559463200E083B4 /* ViewControllerTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

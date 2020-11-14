@@ -7,7 +7,9 @@
 
 import UIKit
 
-class ThirdTableViewCell: UITableViewCell, UITableViewDelegate, UITableViewDataSource {
+class ThirdTableViewCell: UITableViewCell,
+                          UITableViewDelegate,
+                          UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -38,6 +40,6 @@ class ThirdTableViewCell: UITableViewCell, UITableViewDelegate, UITableViewDataS
                 
         return cell
     }
-  
+    
 
 }
